@@ -36,7 +36,10 @@ int handle_write_char(char c, char buffer[],
 			buffer[BUFF_SIZE - i - 2] = padd;
 		if (flags & F_MINUS)
 			return (write(1, &buffer[0], 1) +
-					write(1, &buffer[0], 1));
+					write(1, &buffer[BUFF_SIZE - i - 1], width - 1));
+		else
+			return (write(1, &buffer[BUFF_SIZE - I - 1], width - 1) +
+				write(1, &buffer[0], 1));
 	}
 
 	return (write(1, &buffer[0], 1));
