@@ -4,8 +4,10 @@ Printf collaboration between Cynthia Mugo and Elias Macharia.
 /********** _PRINTF.C  ************/
 
 Contains:
+	
+
 	 _printf which is the main printing fxn. 
-	print_buffer - prints the content of the buffer using @buffer for  Array of chars and @buff_ind for indices
+	print_buffer - prints the content of the buffer
 
 
 /************* FUNCTIONS.C ****************/
