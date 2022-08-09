@@ -70,4 +70,11 @@ Contains:
 
 	handle_print prints the argument based on its type
 
+/************** MAIN.H ***********************/
 
+Contains:
+
+	prototypes for all functions
+	MACROS are defined
+	structs are defined
+	c libraries are called
