@@ -78,3 +78,14 @@ Contains:
 	MACROS are defined
 	structs are defined
 	c libraries are called
+
+/**************** UTILS.C **********************/
+
+Contains:
+
+	is_printable which evaluates whether a char is printable
+	append_hexa_code which includes the ASCII code in hexa form to the buffer
+	is_digit to verify if a char is a digit
+	convert_size_number to cast a number to the specified size
+	covert_size_unsigned to cast unsigned number to the specified size
+
