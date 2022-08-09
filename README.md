@@ -89,3 +89,14 @@ Contains:
 	convert_size_number to cast a number to the specified size
 	covert_size_unsigned to cast unsigned number to the specified size
 
+/**************** WRITE_HANDLERS.C ***************/
+
+Contains:
+
+	handle_write_char which prints a string
+	write_number which prints a no as string
+	write_num for writing a num using a buffer
+	write_unsgnd for writing an unsigned int
+	write_pointer for writing memory address
+
+
