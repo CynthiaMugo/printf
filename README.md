@@ -46,4 +46,28 @@ Contains:
 	get_flags which calculates active flags
 	
 
-/***************
+/*************** GET_PRECISION.C **************/
+
+Contains:
+
+	get_precision for calculating precision for printing
+
+/************** GET_SIZE.C *******************/
+
+Contains: 
+
+	get_size for calculating size to cast to the argument
+
+/*************** GET_WIDTH.C ****************/
+
+Contains:
+
+	get_width calculating width of printing
+
+/************** HANDLE_PRINT.C **************/
+
+Contains:
+
+	handle_print prints the argument based on its type
+
+
