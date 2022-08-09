@@ -1,7 +1,7 @@
 Printf collaboration between Cynthia Mugo and Elias Macharia.
 
 
-/********** _PRINTF.C  ************/
+ _PRINTF.C  ************/
 
 Contains:
 	
@@ -10,7 +10,7 @@ Contains:
 	print_buffer - prints the content of the buffer
 
 
-/************* FUNCTIONS.C ****************/
+ FUNCTIONS.C ****************/
 
 Contains:
 
@@ -21,7 +21,7 @@ Contains:
 	print_binary for printing unsigned numbers
 
 
-/************* FUNCTIONS1.C *****************/
+ FUNCTIONS1.C *****************/
 
 Contains:
 
@@ -32,7 +32,7 @@ Contains:
 	print_hexa prints hex numbers in lower and uppercase
 
 
-/************** FUNCTIONS2.C ****************/
+ FUNCTIONS2.C ****************/
 
 Contains:
 
@@ -41,38 +41,38 @@ Contains:
 	print_reverse for printing reversed string
 	print_rot13string for printing a string in rot13
 
-/************** GET_FLAGS.C ******************/
+ GET_FLAGS.C ******************/
 
 Contains:
 
 	get_flags which calculates active flags
 	
 
-/*************** GET_PRECISION.C **************/
+ GET_PRECISION.C **************/
 
 Contains:
 
 	get_precision for calculating precision for printing
 
-/************** GET_SIZE.C *******************/
+ GET_SIZE.C *******************/
 
 Contains: 
 
 	get_size for calculating size to cast to the argument
 
-/*************** GET_WIDTH.C ****************/
+ GET_WIDTH.C ****************/
 
 Contains:
 
 	get_width calculating width of printing
 
-/************** HANDLE_PRINT.C **************/
+ HANDLE_PRINT.C **************/
 
 Contains:
 
 	handle_print prints the argument based on its type
 
-/************** MAIN.H ***********************/
+ MAIN.H ***********************/
 
 Contains:
 
@@ -81,7 +81,7 @@ Contains:
 	structs are defined
 	c libraries are called
 
-/**************** UTILS.C **********************/
+ UTILS.C **********************/
 
 Contains:
 
@@ -91,7 +91,7 @@ Contains:
 	convert_size_number to cast a number to the specified size
 	covert_size_unsigned to cast unsigned number to the specified size
 
-/**************** WRITE_HANDLERS.C ***************/
+ WRITE_HANDLERS.C ***************/
 
 Contains:
 
